@@ -17,6 +17,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding-left: 1rem;
 }
 
 main img{
@@ -25,6 +26,7 @@ main img{
     border: 1px solid;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right
 }
 
 p {
@@ -37,17 +39,23 @@ main {
 
 .temple{
     color: darkblue;
-    padding-top: 2rem;
-}
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(138, 138, 138, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    padding:1rem;
+
 }
 
+aside {
+    width: 20rem;
+    border: 1px solid rgba(138, 138, 138, 0.2);
+    background-color: #eee;
+    color: #333;
+    postion: relative;
+}
+
+aside h2{
+    position:absolute;
+    left: 90px ;
+    
+}
 aside img {
     width: 200px;
     height:auto;
@@ -58,4 +66,13 @@ footer {
     border-top: 1px solid#7c7c7c;
     text-align: center;
     color: #6d6a6a;
+}
+
+/* Class Selectors*/
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    background: #ddd;
+    color: #000;
 }
