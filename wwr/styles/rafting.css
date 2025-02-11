@@ -1,8 +1,8 @@
 :root{
     --primary-color: #03045e;
     --secondary-color: #0077b6;
-    --accent1-color: #00b4d8;
-    --accent2-color: #90e0ef;
+    --accent1-color: rgb(0, 180, 216);
+    --accent2-color: rgb(144, 224, 239);
     --accent3-color: #caf0f8;
 
     --heading-font: Montserrat Bold serif;
@@ -12,6 +12,24 @@
 body{
     background-color: var(--accent1-color);
 }
+
+header,main, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    height: auto;
+}
+nav{
+    display: flex;
+}
 h1,h2{
     font-family: var(--heading-font);
     color: #ffff;
@@ -19,27 +37,65 @@ h1,h2{
 p{
     color:#ffff;
     font-family: var(--text-font);
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-start: 1rem;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
+
 }
-a{
+nav a{
     text-decoration: none;
     color:beige;
+    padding-left: 1rem;
+    font-size: 1rem;
 }
-div .hero{
+.hero{
     position: relative;
     margin: auto;
 }
 
-h1{
+.hero h1{
     position: absolute;
-    top: 150px;
-    margin: 10px;
+    top: -0.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
     Padding: 1rem;
+  /*background-color:rgb(12 12 12 / 0.5);
+    font-size: 2rem; */
 }
-article{
+
+.hero article{
     position: absolute;
-    top: 150px;
-    margin: 10px;
+    top:6rem;
+    left: 2rem;
+    right: 2rem;
+    
+}
+.hero article img{
+    width: 150px;
+    float: right;
+
+}
+.hero article p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+article{
+    position: relative;
+    top: 65px;
+    margin: 5px;
     padding: 1rem;
+    text-decoration: justify;
+    background-color: rgba(12, 12, 12, 0.5);
+    border-radius: 1rem;
+}
+article img{
+    width: 200px;
+
 }
 
 .hero img{
@@ -48,21 +104,15 @@ article{
     height: auto;
 }
 
-nav{
-    display: flex;
-    max-width: auto;
-}
 
-
-ul li {
+li {
     font-family: var(--text-font);
+    display: inline-block;    
     text-decoration: none;
+    text-align: center;
     color: white;
-    display: flex;
-    float: left;
-    gap: 42px;
-    padding: 10px;
     transition: 0.5s ease;
+
 }
 ul:hover li a {
     color: gray;
@@ -70,4 +120,16 @@ ul:hover li a {
 
 ul:hover li a:not(:hover){
     color: white;
+}
+
+footer{
+    margin-top: 30px;
+    border-top: 1px solid#000000;
+    text-align: center;
+}
+
+.sociallinks{
+    display: block;
+    margin-block: 2rem;
+    
 }
