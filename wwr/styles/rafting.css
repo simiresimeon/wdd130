@@ -75,7 +75,6 @@ nav a{
     top:8rem;
     left: 2rem;
     right: 2rem;
-    margin-trim: 4px;
 }
 .hero article img{
     width: 150px;
@@ -83,7 +82,7 @@ nav a{
     margin: 1.5rem;
 }
 .hero article p{
-    font-size: rem;
+    font-size: 1rem;
     font-weight: 350px;
     padding: 1rem;
     float: none; 
@@ -94,7 +93,6 @@ article{
     top: 65px;
     margin: 5px;
     padding: 0.2rem;
-    text-decoration: justify;
     background-color: rgba(12, 12, 12, 0.5);
     border-radius: 1rem;
 }
@@ -115,7 +113,8 @@ li {
     text-decoration: none;
     text-align: center;
     color: white;
-    transition: 0.5s ease;
+    transition: 1s ease;
+    pointer-events: ;
 }
 
 ul{
