@@ -23,15 +23,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 header img{
     width: 200px;
     height: auto;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    
+
 
 }
 h1,h2{
