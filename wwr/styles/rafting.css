@@ -133,3 +133,8 @@ footer{
     margin-block: 2rem;
     
 }
+
+section img{
+    display: flex;
+    flex-direction: column;
+}
