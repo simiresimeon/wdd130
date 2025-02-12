@@ -47,7 +47,6 @@ p{
     margin-block-start: 1rem;
     margin-inline-start: 0rem;
     margin-inline-end: 0rem;
-
 }
 nav a{
     text-decoration: none;
@@ -62,45 +61,45 @@ nav a{
 
 .hero h1{
     position: absolute;
-    top: -0.5rem;
+    top: 4rem;
     left: 0;
     right: 0;
     text-align: center;
     Padding: 1rem;
-  /*background-color:rgb(12 12 12 / 0.5);
-    font-size: 2rem; */
+    font-size: 2rem;
 }
+
 
 .hero article{
     position: absolute;
-    top:6rem;
+    top:8rem;
     left: 2rem;
     right: 2rem;
-    
+    margin-trim: 4px;
 }
 .hero article img{
     width: 150px;
     float: right;
-
+    margin: 1.5rem;
 }
 .hero article p{
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding: 0.5rem;
+    font-size: rem;
+    font-weight: 350px;
+    padding: 1rem;
+    float: none; 
 }
 
 article{
     position: relative;
     top: 65px;
     margin: 5px;
-    padding: 1rem;
+    padding: 0.2rem;
     text-decoration: justify;
     background-color: rgba(12, 12, 12, 0.5);
     border-radius: 1rem;
 }
 article img{
     width: 200px;
-
 }
 
 .hero img{
@@ -144,6 +143,29 @@ footer{
 }
 
 section img{
-    display: flex;
-    flex-direction: column;
+    width: 150px;
+    height: auto;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 3rem;
+}
+
+section h2 {
+    grid-column: 1/ 9;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+section p {grid-column: 5/6;
+    text-align: center;
+    padding: 0.5rem;}
