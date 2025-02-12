@@ -83,7 +83,7 @@ nav a{
 }
 .hero article p{
     font-size: 1rem;
-    font-weight: 350px;
+    font-weight: 400;
     padding: 1rem;
     float: none; 
 }
@@ -114,7 +114,6 @@ li {
     text-align: center;
     color: white;
     transition: 1s ease;
-    pointer-events: ;
 }
 
 ul{
