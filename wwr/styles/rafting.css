@@ -29,6 +29,10 @@ header img{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
 }
 h1,h2{
     font-family: var(--heading-font);
@@ -47,7 +51,7 @@ p{
 nav a{
     text-decoration: none;
     color:beige;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-size: 1rem;
 }
 .hero{
