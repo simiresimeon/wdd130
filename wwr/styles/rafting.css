@@ -17,11 +17,21 @@ nav,main, footer{
     max-width: 5000px;
     margin: 0 auto;
 }
-
-header img{
-    width: 180px;
-    height: auto;
+header{
+    margin: 1rem auto;
     display: grid;
+    grid-template-columns:  1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    border-radius: 50rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);            
+}
+header img{
+    width: 100px;
+    height: auto;
+    margin: 1rem;
+    border-radius: 100dvh;
 }
 nav{
     display: flex;
