@@ -21,6 +21,7 @@ nav,main, footer{
 header img{
     width: 180px;
     height: auto;
+    display: grid;
 }
 nav{
     display: flex;
