@@ -52,7 +52,7 @@ main img{
     align-items: center;
 }
 p {
-    padding: 1rem;
+    padding: 0;
 }
 
 /* Grid Template */
