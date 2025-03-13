@@ -21,8 +21,6 @@ nav a {
     display: flex;
     padding: 0.5rem;
     text-decoration: none;
-    flex-direction: center
-    ;
 
 }
 nav:hover a{
