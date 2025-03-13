@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-header, .grid, footer{
+/*header, .grid, footer{
     max-width: 0 auto;
     margin: 0 auto;
-}
+}*/
 nav {
     background-color: darkblue;
     padding: 1rem;
