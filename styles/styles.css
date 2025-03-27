@@ -54,12 +54,12 @@ p {
 }
 
 /* Grid Template */
-/* main { 
+main { 
     max-width: 840px;
     grid-column:2/3;
     grid-row: 1/3;  
     margin: 1rem;
-}*/
+}
 
 .temple{
     color: darkblue;
