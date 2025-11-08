@@ -18,7 +18,7 @@ nav {
 
 nav a {
     color: white;
-    display: flex;
+    display: block;
     padding: 0.5rem;
     text-decoration: none;
 
@@ -81,7 +81,7 @@ aside h2{
     
 }
 aside img {
-    width: 250px;
+    width: 200px;
     height:auto;
 }
 
