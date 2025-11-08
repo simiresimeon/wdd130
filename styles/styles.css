@@ -72,6 +72,8 @@ aside {
     border: 1px solid rgba(138, 138, 138, 0.2);
     background-color: #eee;
     color: #333;
+    margin: 2px;
+    padding: .9rem;
     position: relative;
 }
 
