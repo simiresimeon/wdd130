@@ -9,7 +9,7 @@
     margin: 0 auto;
 }*/
 header nav {
-    background-color: darkblue;
+    background-color: rgb(19, 22, 5);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -58,7 +58,7 @@ main {
     max-width: 840px;
     grid-column:2/3;
     grid-row: 1/3;  
-    margin: 2rem;
+    margin: 0 2rem;
 }
 
 .temple{
