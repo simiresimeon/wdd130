@@ -1,9 +1,6 @@
 :root{
     --primary-color: #03045e;
     --secondary-color: #0077b6;
-    --accent1-color: rgb(0, 180, 216);
-    --accent2-color: rgb(144, 224, 239);
-    --accent3-color: #caf0f8;
     --accent4-color: black;
 
     --heading-font: Montserrat Bold serif;
@@ -53,7 +50,7 @@ nav, p, section, article {
     height: auto;
 }
 
-.hero h2{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -98,15 +95,3 @@ li {
     transition: ease-in-out 0.5s;
 }
 
-ul{
-    display: flex;
-    justify-content: flex-start;
-    padding: 2rem;
-}
-ul:hover li a {
-    color: gray;
-}
-
-ul:hover li a:not(:hover){
-    color: white;
-}
