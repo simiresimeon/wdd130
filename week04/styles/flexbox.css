@@ -7,7 +7,8 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .flex-item {
@@ -20,13 +21,13 @@ body {
 }
 
 .item1 {
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .item2 {
-    min-height: 200px;
+    min-height: 50px;
 }
 
 .item3 {
-    min-height: 300px;
+    min-height: 50px;
 }
