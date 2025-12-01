@@ -46,12 +46,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
 }
 
 ul .navigation{
     display: flex;
     gap: 20px;
     list-style: none;
+
 }
 
 h1, h2 {
@@ -151,5 +154,4 @@ footer {
 .socialmedia {
     display: flex;
     gap: 10px;
-    justify-content: flex-start;
 }
