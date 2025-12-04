@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: whitesmoke;
+    font-family:Merriweather, Georgia, serif;
+    color: #333;
+    background-color: #fff;
+    font-size: 1.2em;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    color: darkblue;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form{
+    width: 650px;
+    margin:0 auto ;
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    display: grid;
+
+
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr ;
+    
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: darkblue;
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+input,select,textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/*To style checkbox*/
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: #333;
+}
+
+footer{
+    margin: 1rem auto ;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+
+}

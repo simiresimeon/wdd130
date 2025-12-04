@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | SIMIRE SIMEON OBAMIEGIE | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | SIMIRE SIMEON OBAMIEGIE | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2 " >
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email: </label>
+                    <input type="email" id="useremail" name="useremail" required>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite Browser? </label>
+                    <select id="browser" name="browser">
+                        <option value="edge">Microsoft Edge</option>
+                        <option value="chrome">Google Chrome</option>
+                        <option value="firefox">Mozilla Firefox</option>
+                        <option value="operamini">Operamini</option>
+                        <option value="others">Others</option>
+                    </select><br><br>
+                </div>
+                <div class="column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class=>
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Benin, Lagos, Abuja, Bayelsa"></textarea>
+                </div>
+            </fieldset>
+            <button input type="submit" value="Submit"> Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 | HTML Form - User Poll Activity | SIMIRE SIMEON OBAMIEGIE | WDD 130</p>
+    </footer>
+</body>
+</html>
