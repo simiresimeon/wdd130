@@ -231,7 +231,7 @@ footer {
     opacity:0.9; 
 }
 
-/* Responsive */
+/* Responsive 
 @media (max-width:980px){
   .grid { 
     grid-template-columns: 1fr; 
@@ -245,7 +245,7 @@ footer {
 }
   .nav-links { 
     display:none; 
-} /* simple mobile collapse */
+} /* simple mobile collapse 
   .navbar { 
     justify-content:space-between; 
 }
