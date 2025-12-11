@@ -78,7 +78,7 @@ p, section, article {
     text-decoration: none;
 }
 
-/* Home page*/
+/* About Us page*/
 
 .hero{
     position: relative;
@@ -267,16 +267,16 @@ footer {
     opacity:0.9; 
 }
 
-
+/* Home page*/
 .herohome{
   position: relative;
-  background: url('images/58_600.jpg') no-repeat center center/cover;
-  height: 80vh;
+  background: url('https://media.oars.com/wp-content/uploads/2023/05/20193618/chilkp-whitewater-wonder-800x800.jpg') no-repeat  center/cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   text-align: center;
   padding: 0 1rem;
 }
